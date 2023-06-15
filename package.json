@@ -1,5 +1,5 @@
 {
-  "name": "t-shirt-beyond-astro",
+  "name": "beyond-t-shirt-astro",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "astro": "^2.6.4"
+  },
+  "devDependencies": {
+    "sass": "^1.63.4"
   }
 }

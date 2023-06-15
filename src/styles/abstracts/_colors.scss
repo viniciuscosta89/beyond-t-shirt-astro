@@ -1,0 +1,18 @@
+// Colors
+@media (prefers-color-scheme: light) {
+	:root {
+		--clr-red-400: hsl(357.21, 54.89%, 53.92%);
+		--clr-red-500: hsl(357, 74%, 39.13%);
+		--clr-blue-800: hsla(216, 71%, 16%, 1);
+		--clr-neutral-100: hsl(0 0% 100%);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--clr-red-400: hsla(357, 100%, 68%, 1);
+		--clr-red-500: hsl(357, 100%, 60.62%);
+		--clr-blue-800: hsla(216, 71%, 75%, 1);
+		--clr-neutral-100: hsl(0 0% 12%);
+	}
+}

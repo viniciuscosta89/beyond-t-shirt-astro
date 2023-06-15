@@ -1,0 +1,22 @@
+@use "./abstracts" as *;
+@use "./layout" as *;
+@use "./reset" as *;
+@use "./utilities" as *;
+
+body {
+	color: var(--clr-blue-800);	
+	font-family: $ff-sans-serif;
+	font-size: $fs-400;
+}
+
+.button {
+  display: inline-block;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  padding: $size-16;
+  background: var(--clr-red-400);
+  color: var(--clr-neutral-100);
+  border-radius: 100vw;
+	@extend %shadow;  
+}

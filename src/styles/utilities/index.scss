@@ -1,0 +1,45 @@
+@use "../abstracts";
+
+// Utility classes
+.page-title {
+	font-size: abstracts.$fs-700;
+	font-weight: abstracts.$fw-black;
+}
+
+.margin-block-xl {
+	margin-block: abstracts.$size-36;
+}
+
+.fw-bold {
+	font-weight: abstracts.$fw-bold;
+}
+
+.fw-black {
+	font-weight: abstracts.$fw-black;
+}
+
+.fs-16 {
+	font-size: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-accent {
+	color: var(--clr-red-400);
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}

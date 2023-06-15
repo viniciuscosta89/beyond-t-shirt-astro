@@ -1,0 +1,12 @@
+// Mixins
+@mixin interactive-scale($bg, $color, $y-axis: 0, $scale: 1.05) {
+  transform: scale(1) translateY($y-axis);
+  transition: all 350ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: $bg;
+		color: $color;
+    transform: scale($scale) translateY($y-axis);
+  }
+}
